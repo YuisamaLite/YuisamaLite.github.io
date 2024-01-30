@@ -6,6 +6,8 @@ date: 2023-2-28 18:00:00
 
 下面是防止自己忘掉的一些基础命令
 
+现在放pages上了好像也用不到了（思考）
+
 ## Quick Start
 
 ### Create a new post
