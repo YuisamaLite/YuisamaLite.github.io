@@ -2,30 +2,30 @@
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
 # ---------------
-# theme_color:
-#   enable: true
-#   main: "#49B1F5"
-#   paginator: "#00C4B6"
-#   button_hover: "#FF7242"
-#   text_selection: "#00C4B6"
-#   link_color: "#858585"
-#   hr_color: "#A4D8FA"
-#   tag_start_color: "#A4D8FA"
-#   tag_end_color: "#1B9EF3"
-#   header_text_color: "#EEEEEE"
-#   footer_text_color: "#EEEEEE"
+theme_color:
+  enable: true
+  main: "#55CDFC"
+  paginator: "#00C4B6"
+  button_hover: "#F7A8B8"
+  text_selection: "#00C4B6"
+  link_color: "#858585"
+  hr_color: "#A4D8FA"
+  tag_start_color: "#A4D8FA"
+  tag_end_color: "#1B9EF3"
+  header_text_color: "#EEEEEE"
+  footer_text_color: "#EEEEEE"
 
 # Main menu navigation
 menu:
-  # Home: /
-  # Archives: /archives
-  # Tags: /tags
-  # Categories: /categories
+  Home: /
+  Categories: /categories
+  Archives: /archives
+  About: /about
   #XXX: /xxx
 
 # Favicon
 # ---------------
-favicon: /melody-favicon.ico
+favicon: /favicon.ico
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
@@ -143,9 +143,9 @@ cdn:
 # ---------------
 avatar: https://avatars.githubusercontent.com/u/49951889?v=4
 
-top_img: true # false or url of img
+top_img: false # false or url of img
 
-top_img_height: 60 # best range: 60 - 100
+top_img_height: 45 # best range: 60 - 100
 
 post_meta:
   date_type: created # created or updated
@@ -218,7 +218,7 @@ addThis:
 # ---------------
 disqus:
   enable: true
-  #shortname:
+  shortname: Yuisama_blog
   count: true
 
 # laibili:
